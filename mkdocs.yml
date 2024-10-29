@@ -3,9 +3,9 @@ site_url: https://<user>.github.io/<repo>/
 repo_url: https://github.com/<user>/<repo>
 nav:
   - Home: 'index.md'
-markdown_extensions:
-  - toc:
-    permalink: "#"
+# markdown_extensions:
+#   - toc:
+#     permalink: "#"
 theme:
   name: material
   features:
