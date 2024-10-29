@@ -1,6 +1,6 @@
 site_name: My Site
-site_url: https://<user>.github.io/<repo>/
-repo_url: https://github.com/<user>/<repo>
+site_url: https://monegim.github.io/
+repo_url: https://github.com/monegim
 nav:
   - Home: 'index.md'
 # markdown_extensions:
