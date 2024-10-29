@@ -3,9 +3,9 @@ site_url: https://<user>.github.io/<repo>/
 repo_url: https://github.com/<user>/<repo>
 nav:
   - Home: 'index.md'
-# markdown_extensions:
-#   - toc:
-#     permalink: "#"
+markdown_extensions:
+  - toc:
+    permalink: "#"
 theme:
   name: material
   features:
@@ -27,14 +27,14 @@ theme:
         name: Switch to light mode
 extra_javascript: 
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-markdown_extensions:
-  - mdx_math
-  - admonition
-  - sane_lists
-  - pymdownx.highlight:
-      auto_title: false
-  - pymdownx.superfences
-  - pymdownx.keys
+# markdown_extensions:
+#   - mdx_math
+#   - admonition
+#   - sane_lists
+#   - pymdownx.highlight:
+#       auto_title: false
+#   - pymdownx.superfences
+#   - pymdownx.keys
 docs_dir: src
 edit_uri: edit/main/src/
 site_dir: docs
