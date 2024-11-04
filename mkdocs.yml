@@ -1,6 +1,6 @@
-site_name: My Site
+site_name: Mostafa Negim
 site_url: https://monegim.github.io/
-repo_url: https://github.com/monegim
+# repo_url: https://github.com/monegim
 nav:
   - Home: 'index.md'
 # markdown_extensions:
