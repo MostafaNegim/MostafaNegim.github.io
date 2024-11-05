@@ -38,6 +38,6 @@ site_author: Mostafa Negim
 #   - pymdownx.keys
 docs_dir: docs
 # edit_uri: edit/main/src/
-site_dir: docs
+# site_dir: docs
 
 use_directory_urls: false
