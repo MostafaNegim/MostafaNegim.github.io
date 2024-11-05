@@ -36,7 +36,7 @@ site_author: Mostafa Negim
 #       auto_title: false
 #   - pymdownx.superfences
 #   - pymdownx.keys
-docs_dir: docs
+docs_dir: src
 # edit_uri: edit/main/src/
 site_dir: docs
 
