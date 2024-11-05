@@ -1,8 +1,8 @@
 site_name: Mostafa Negim
 site_url: https://monegim.github.io/
 # repo_url: https://github.com/monegim
-nav:
-  - Home: 'index.md'
+# nav:
+#   - Home: 'index.md'
 # markdown_extensions:
 #   - toc:
 #     permalink: "#"
