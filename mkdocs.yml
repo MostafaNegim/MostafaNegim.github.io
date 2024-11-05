@@ -37,4 +37,4 @@ nav:
 #   - pymdownx.keys
 docs_dir: src
 # edit_uri: edit/main/src/
-site_dir: docs
+site_dir: /
