@@ -1,5 +1,5 @@
 site_name: Mostafa Negim
-site_url: https://monegim.github.io/
+# site_url: https://monegim.github.io/
 # repo_url: https://github.com/monegim
 nav:
   - Home: 'index.md'
