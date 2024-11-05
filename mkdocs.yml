@@ -1,5 +1,5 @@
 site_name: Mostafa Negim
-site_url: https://monegim.github.io/
+site_url: ""
 site_author: Mostafa Negim
 # repo_url: https://github.com/monegim
 # nav:
@@ -39,3 +39,5 @@ site_author: Mostafa Negim
 docs_dir: docs
 # edit_uri: edit/main/src/
 site_dir: src
+
+use_directory_urls: false
