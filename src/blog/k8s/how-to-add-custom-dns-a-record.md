@@ -1,0 +1,1 @@
+# Is there a way to add a custom dns a record in kubernetes?
