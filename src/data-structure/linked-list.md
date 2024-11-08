@@ -1,12 +1,13 @@
-```go
+# Linked List
 
+```
 package linked_list
 
 import "fmt"
 
 type Node struct {
 	Value int
-	Next *Node
+	Next  *Node
 }
 
 type LinkedList struct {
@@ -14,27 +15,32 @@ type LinkedList struct {
 }
 
 func (ll *LinkedList) Print() {
-	var next *Node = ll.Head
 	if ll.Head == nil {
 		fmt.Println("[]")
 		return
 	}
 	fmt.Printf("[")
-	for next != nil {
-		fmt.Printf("%d->", next.Value)
-		next = next.Next
-	}
+	ll.IterateList(func(v int) {
+		fmt.Printf("%d->", v)
+	})
 	fmt.Printf("]\n")
 }
 
 func (ll *LinkedList) AddToHead(value int) {
 	newHead := Node{
 		Value: value,
-		Next: nil,
+		Next:  nil,
 	}
 	if ll.Head != nil {
 		newHead.Next = ll.Head
 	}
-	ll.Head =&newHead
+	ll.Head = &newHead
 }
-```
+
+func (ll *LinkedList) IterateList(fn func(v int)) {
+	for node := ll.Head; node != nil; node = node.Next {
+		fn(node.Value)
+	}
+}
+
+``
