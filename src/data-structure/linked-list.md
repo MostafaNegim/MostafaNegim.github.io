@@ -1,6 +1,6 @@
 # Linked List
 
-```
+```go
 package linked_list
 
 import "fmt"
