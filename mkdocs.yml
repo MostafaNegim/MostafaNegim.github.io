@@ -4,6 +4,12 @@ site_author: Mostafa Negim
 # repo_url: https://github.com/monegim
 # nav:
 #   - Home: 'index.md'
+
+# Plugins
+plugins:
+  - search
+  - awesome-pages:
+      collapse_single_pages: false
 theme: 
   name: material 
   #https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
@@ -21,7 +27,7 @@ theme:
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
   prev_next_buttons_location: both
   navigation_depth: 4
@@ -30,6 +36,10 @@ theme:
 # extra_javascript: 
 #   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
+  - codehilite:
+      linenums: true
+      guess_lang: false
+  - pymdownx.emoji
   - smarty
   - sane_lists
   - fenced_code
@@ -51,7 +61,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tabbed
   - pymdownx.tilde
-  - codehilite
   - footnotes
   - toc:
       permalink: true
@@ -65,5 +74,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/monegim
+    - icon: fontawesome/brands/stackoverflow
+      link: https://stackoverflow.com/users/10059628/andromeda
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/mostafa-negim
