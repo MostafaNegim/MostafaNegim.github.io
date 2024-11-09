@@ -8,8 +8,8 @@ site_author: Mostafa Negim
 # Plugins
 plugins:
   - search
-  - awesome-pages:
-      collapse_single_pages: false
+  # - awesome-pages:
+  #     collapse_single_pages: false
 theme: 
   name: material 
   #https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
